@@ -1,25 +1,28 @@
-
 <div class="bg-options">
   <h2 class="text-2xl font-bold mb-4"> Theme settings</h2>
   <p class="mb-4">Choose a color style:</p>
   <div class="flex flex-wrap gap-2 mb-4">
-   
-  
-<button type="button" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" (click)="setBackground('gradient')">Blue to Green</button>
-<button type="button" class="text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" (click)="setBackground('gradient')">Yellow to Red</button>
-<button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Cyan to Blue</button> -->
-<button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" (click)="setBackground('white')">Green to Blue</button>
-<button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" (click)="setBackground('dark')">dark</button>
 
-<button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" (click)="setBackground('gradient')">Gradient</button>
-<!-- <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Teal to Lime</button> -->
-<button type="button" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" (click)="setBackground('white')"> light theme</button>
+    <button type="button"
+      class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+      (click)="setBackground('gradient')">Green</button>
+    <button type="button"
+      class="text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+      (click)="setBackground('white')"> Red</button>
+    <button type="button"
+      class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+      (click)="setBackground('dark')">dark</button>
 
-</div>
- <h2 class="text-2xl font-bold mb-4">Background</h2>
+
+  </div>
+  <h2 class="text-2xl font-bold mb-4">Background</h2>
   <p class="mb-4">Choose a websote background</p>
-<button (click)="showDiv('video1')" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">video 1</button>
-<button (click)="showDiv('video2')" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">video2</button>
-<button (click)="showDiv('video3')" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">video3</button>
+  <button (click)="showDiv('video1')"
+    class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">video
+    1</button>
+  <button (click)="showDiv('video2')"
+    class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">video2</button>
+  <button (click)="showDiv('video3')"
+    class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-bl focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">video3</button>
 
 </div>

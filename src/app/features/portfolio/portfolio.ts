@@ -16,8 +16,8 @@ projects: any[] = [];
    ngOnInit(): void {
     this.api.getProject().subscribe((data) => {
       this.projects = data as any[];
-      console.log(this.projects);
-        console.log(this.projects.length);
+      // console.log(this.projects);
+      //   console.log(this.projects.length);
     });
   }
 }

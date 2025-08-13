@@ -1,11 +1,27 @@
 [
   {
+    "id": "6",
+    "projectName": "Weather App",
+    "duration": "July 2025  ",
+    "projectWebsite": "https://ganesh-react-weather-app.netlify.app/",
+    "description": "Get accurate and real-time weather updates for any city in the world.",
+    "projectImage": "public/assets/images/weather-app.png",
+    "technology": [
+      "API",
+      "axios",
+      "React",
+      "ES6",
+      "SCSS",
+      "CSS"
+    ]
+  },
+  {
     "id": "0",
     "projectName": "GE Aerospace",
     "duration": "July 2019 to prasent ",
     "projectWebsite": "https://www.geaerospace.com/",
     "description": "GE Aerospace is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, military, business and general aviation. \n\n I led the user interface (UI) team to bridge the gap between design and development, ensuring the user interface is aesthetically pleasing, easy to use, and technically sound. We translated the visual design into functional, user-friendly interfaces. We built reusable UI Gutenberg components using ReactJS, ES6, and SCSS. We maintained and updated existing user interfaces by fixing bugs, implementing new features, and ensuring the interface remains current.",
-    "projectImage":"public/assets/images/geaerospace.png",
+    "projectImage": "public/assets/images/geaerospace.png",
     "technology": [
       "Guteberg Custom Block",
       "GSAP",
@@ -14,15 +30,15 @@
       "SCSS",
       "CSS",
       "Drupal"
-    ]    
+    ]
   },
   {
     "id": "1",
     "projectName": "GE Vernova",
-     "duration": "November 2022 to Feb 2024",
+    "duration": "November 2022 to Feb 2024",
     "projectWebsite": "https://www.gevernova.com/",
     "description": "GE Vernova, Inc., is an energy equipment manufacturing and services company headquartered in Cambridge, Massachusetts. GE Vernova was formed from the merger and subsequent spin-off of General Electric's energy businesses in 2024: GE Power, GE Renewable Energy, GE Digital and GE Energy Financial Services. \n\n My role is Lead UI Developer on this project. My responsibilities to develop the reusable UI components, markups, building pages using reusable components, creating and reviewing task for team. Maintaining and enhancing the gBlox UI library for the current and future projects, sharing new release note to all project managers for the new UI component, working closely with PM for the new requirement. Utilized common front-end development tools such as Babel, Web pack, NPM, etc. Implemented React-Redux life cycle. Utilized React-Redux Action Creators, create Store from redux library to connect reducers and containers, to update the state and virtual DOM.  Worked on Lifecycle methods, State, Specs, Props, & Events to create interactive and stateful react components.  Used Bitbucket for version controlling and regularly pushed the code to GitHub. Participated in day-today meeting/workshops, status meeting, as part of Agile Methodology and Scrum process.  Developing multiple user interfaces in different projects of GE. Ensure quality of code by developing and writing unit test.",
-    "projectImage":"public/assets/images/gevernova.png",
+    "projectImage": "public/assets/images/gevernova.png",
     "technology": [
       "Guteberg Custom Block",
       "React",
@@ -30,15 +46,14 @@
       "SCSS",
       "CSS",
       "Drupal"
-    ]   
+    ]
   },
   {
     "id": "2",
     "projectName": "GE Corporate",
-     "duration": "Aug 2019 to November 2022",
-     "description": "The future of GE's companies begins now with the planned spinoff of GE Aerospace and GE Vernova. General Electric (GE) was a multinational conglomerate founded in 1892 that spun off into three independent, publicly traded companies: GE Aerospace, GE Vernova, and GE HealthCare. GE Aerospace, now doing business as GE Aerospace, focuses on aircraft engines and related systems. GE Vernova specializes in renewable energy solutions, including wind and gas turbines. GE HealthCare is dedicated to medical technology and solutions. \n\nRole and Responsibility: \n\n As a UI developer I am responsible to provide the user interface solution to the end user, including the final look, feel and behavior of the interface in different contexts. \n\n  Gathering new requirement from client, analyze, understand and estimate of the requirement. Building UI with Gutenberg cloud custom blocks using React JS. \n\n Maintain the UI Library for the current and future projects. \n\n Developed optimized clean code and integration with backend CMS Drupal, WordPress and Jamstack resolving the cross-browser UI issues. \n\n Leading UI team, create an inspiring team environment with an open communication culture, encourage creativity and risk-taking. ",
-
-    "projectImage":"public/assets/images/gecorporate.png",
+    "duration": "Aug 2019 to November 2022",
+    "description": "The future of GE's companies begins now with the planned spinoff of GE Aerospace and GE Vernova. General Electric (GE) was a multinational conglomerate founded in 1892 that spun off into three independent, publicly traded companies: GE Aerospace, GE Vernova, and GE HealthCare. GE Aerospace, now doing business as GE Aerospace, focuses on aircraft engines and related systems. GE Vernova specializes in renewable energy solutions, including wind and gas turbines. GE HealthCare is dedicated to medical technology and solutions. \n\nRole and Responsibility: \n\n As a UI developer I am responsible to provide the user interface solution to the end user, including the final look, feel and behavior of the interface in different contexts. \n\n  Gathering new requirement from client, analyze, understand and estimate of the requirement. Building UI with Gutenberg cloud custom blocks using React JS. \n\n Maintain the UI Library for the current and future projects. \n\n Developed optimized clean code and integration with backend CMS Drupal, WordPress and Jamstack resolving the cross-browser UI issues. \n\n Leading UI team, create an inspiring team environment with an open communication culture, encourage creativity and risk-taking. ",
+    "projectImage": "public/assets/images/gecorporate.png",
     "projectWebsite": "https://www.ge.com/",
     "technology": [
       "Guteberg Custom Block",
@@ -47,15 +62,14 @@
       "SCSS",
       "CSS",
       "Drupal"
-    ]   
+    ]
   },
-
   {
     "id": "3",
     "projectName": " Electrification Software (formerly GE Digital)",
-     "duration": "Aug 2019 to November 2022",
+    "duration": "Aug 2019 to November 2022",
     "description": "GE Digital, a subsidiary of GE Vernova, provides software and Industrial Internet of Things (IIoT) services to industrial companies. They offer solutions to improve operations across various sectors like power, oil & gas, manufacturing, and aviation, focusing on areas like digital twins, predictive maintenance, and operational efficiency. GE Digital's software platforms, like Proficy, help companies automate processes, analyze data, and optimize performance. \n \n Help tp built the some Muban(A backend-agnostic framework) resuable component and Guteberg custom component for design the GE Digital site ",
-    "projectImage":"public/assets/images/gedigital.png",
+    "projectImage": "public/assets/images/gedigital.png",
     "projectWebsite": "https://www.gevernova.com/software/",
     "technology": [
       "Muban",
@@ -65,17 +79,16 @@
       "SCSS",
       "CSS",
       "Drupal"
-    ]   
+    ]
   },
-
   {
     "id": "4",
     "projectName": "GreenOrbit",
-     "duration": "Aug 2019 to November 2022",
+    "duration": "Aug 2019 to November 2022",
     "description": "Intranet Software, Everything you need built in, Easy to use, easy to manage.  It acts as a central hub for internal communication, data, and applications relevant to their roles. Facilitates better communication and collaboration among employees through features like discussion forums and social networking tools. Offers access to current information and data, ensuring employees are up-to-date on company news and developments. ",
-    "projectImage":"public/assets/images/greenorbit.png",
+    "projectImage": "public/assets/images/greenorbit.png",
     "projectWebsite": "http://greenorbit.com/",
-    "technology": [      
+    "technology": [
       "React",
       "ES6",
       "SCSS",
@@ -84,7 +97,7 @@
       "HTML",
       "Figma",
       "Photoshop"
-    ]   
+    ]
   },
   {
     "id": "5",
@@ -92,7 +105,7 @@
     "website": "#",
     "duration": "Aug 2019 to November 2022",
     "description": "An intranet dashboard is a digital interface within a private network, designed to provide employees with quick access to essential information and resources. It acts as a central hub for internal communication, data, and applications relevant to their roles. Provides a single point of access for various internal resources, including news feeds, document libraries, and communication tools. Streamlines access to necessary tools and information, reducing time spent searching for resources and boosting overall efficiency. ",
-    "projectImage":"public/assets/images/intranetdashboard.png",
+    "projectImage": "public/assets/images/intranetdashboard.png",
     "technology": [
       "React",
       "ES6",
@@ -101,6 +114,6 @@
       "HTML",
       "Figma",
       "Photoshop"
-    ]  
+    ]
   }
 ]

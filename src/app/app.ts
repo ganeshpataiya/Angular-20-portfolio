@@ -15,13 +15,16 @@ import { Bgsetting } from "./layout/bgsetting/bgsetting";
 // import { Experience } from './features/experience/experience';
 import { Profile } from './features/profile/profile';
 // import { MatIcon } from '@angular/material/icon';
+import { ScrollAnimateDirective } from './scroll-animate.directive';
 
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, Home, About, Resume, Skills, Portfolio, Contact, Nav, MatIcon, Bgsetting, Profile],
+  imports: [ScrollAnimateDirective, CommonModule, Home, About, Resume, Skills, Portfolio, Contact, Nav, MatIcon, Bgsetting, Profile],
   templateUrl: './app.html',
   styleUrl: './app.scss',
+  standalone: true,
+  // imports: [ScrollAnimateDirective], // ✅ import directly here
 
 })
 export class App {

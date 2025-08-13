@@ -14,20 +14,21 @@
                 <div *ngFor="let project of projects" class="col-md-12 scroll-animation"
                     data-animation="fade_from_bottom">
                     <div class="portfolio-item portfolio-full">
+                         <h2 class="mt-5 mb-2"><a href={{project.projectWebsite}}  target="_blank">{{project.projectName}}</a></h2>
                         <div class="portfolio-item-inner">
-                            <a href={{project.projectWebsite}} data-lightbox="example-1">
-                                <img src={{project.projectImage}} alt="Portfolio"> </a>
+                            <a href={{project.projectWebsite}} data-lightbox="example-1" target="_blank">
+                                <img src={{project.projectImage}} alt="Portfolio"> </a>                                
+                          
+                        
+                        </div>
 
-
-                            <ul class="portfolio-categories">
+                          <ul class="portfolio-categories">
                                 <li *ngFor="let tech of project.technology">
                                     <a href="">{{tech}}</a>
                                 </li>
 
                             </ul>
-                            <!-- </div> -->
-                        </div>
-                        <h2><a href="">{{project.projectName}}</a></h2>
+                       
                     </div>
                 </div>
             </div>
