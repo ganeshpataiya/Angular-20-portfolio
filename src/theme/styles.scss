@@ -14,9 +14,20 @@ body {
   background-color: var(--background-color);
 }
 
+.color-blue .global-color .global-color-option .color-boxed a.tr.blue:before, 
+.color-blue .global-color .global-color-option .color-boxed a.tr.blue:after,
+.color-orange .global-color .global-color-option .color-boxed a.tr.orange::before,
+.color-orange .global-color .global-color-option .color-boxed a.tr.orange:after,
+.color-green .global-color .global-color-option .color-boxed a.tr.green:before, 
+.color-green .global-color .global-color-option .color-boxed a.tr.green:after,
+.color-red .global-color .global-color-option .color-boxed a.tr.red:before, 
+.color-red .global-color .global-color-option .color-boxed a.tr.red:after {
+    opacity: 1 !important;
+}
 .body-overlay {
   opacity: 0.3;
 }
+
 // 
 
 .body-overlay {
@@ -45,6 +56,32 @@ body {
 #video3 {
   display: none;
 }
+
+body.color-green h3 span,
+body.color-green h2 span,
+body.color-green h1 span {
+  color: var(--primary-color)
+}
+
+body.color-red h3 span,
+body.color-red h2 span,
+body.color-red h1 span {
+  color: #e4af12;
+}
+
+body.color-orange h3 span,
+body.color-orange h2 span,
+body.color-orange h1 span {
+  color: #fe6f1d; 
+}
+
+body.color-blue h3 span,
+body.color-blue h2 span,
+body.color-blue h1 span {
+  color: #14c5fd;
+}
+
+
 
 h1 {
   font-size: 4rem;
@@ -132,10 +169,7 @@ h3 {
 }
 
 
-h2 span,
-h1 span {
-  color: var(--primary-color)
-}
+
 
 
 

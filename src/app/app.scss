@@ -1,3 +1,16 @@
+
+.color-green  { background: #22c55e; }
+.color-red    { background: #ef4444; }
+.color-blue   { background: #3b82f6; }
+.color-yellow { background: #eab308; }
+body { transition: background 300ms ease; }
+
+.color-green .global-color .global-color-option .color-boxed a.tr.green:before, 
+.color-green .global-color .global-color-option .color-boxed a.tr.green:after,
+.color-green .global-color .global-color-option .color-boxed a.tr.green::before, 
+.color-green .global-color .global-color-option .color-boxed a.tr.green::after {
+    opacity: 1 !important;
+}
 .popup-backdrop {
     position: fixed;
     top: 0;

@@ -10,9 +10,7 @@
     z-index: 3;
 }
 
-.hero-section .hero-content h1 span {
-    color: var(--primary-color);
-}
+
 .hero-section .hero-content > p {
     max-width: 480px;
     margin-bottom: 31px;
@@ -53,9 +51,8 @@
     gap: 100px;
     margin-top: 55px;
 }
-.hero-section .hero-content .facts h1 {
-    font-size: 72px;
-    color: var(--primary-color);
+.hero-section .hero-content .facts h2 {
+    font-size: 72px;    
     line-height: 56px;
     margin-bottom: 38px;
 }
