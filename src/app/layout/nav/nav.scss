@@ -68,13 +68,6 @@
     cursor: pointer;
 }
 
-.menu li.active,
-.menu li :hover,
-.menu li .scroll-to.active,
-.menu li .scroll-to:hover {
-    color: var(--primary-color);
-}
-
 .menu li .scroll-to:hover span,
 .menu li a:hover span {
     opacity: 1;

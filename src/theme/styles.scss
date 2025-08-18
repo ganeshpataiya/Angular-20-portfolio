@@ -28,8 +28,6 @@ body {
   opacity: 0.3;
 }
 
-// 
-
 .body-overlay {
   position: fixed;
   left: 0;
@@ -56,31 +54,93 @@ body {
 #video3 {
   display: none;
 }
-
+body.color-green .left-side .social-profile li a:hover,
+body.color-green .resume-area .resume-content .resume-timeline .item:hover .date,
+body.color-green .menu li.active,
+body.color-green .menu li :hover,
+body.color-green .menu li .scroll-to.active,
+body.color-green .menu li .scroll-to:hover,
 body.color-green h3 span,
 body.color-green h2 span,
 body.color-green h1 span {
   color: var(--primary-color)
 }
-
+body.color-red .left-side .social-profile li a:hover,
+body.color-red .resume-area .resume-content .resume-timeline .item:hover .date,
+body.color-red .menu li.active,
+body.color-red .menu li :hover,
+body.color-red .menu li .scroll-to.active,
+body.color-red .menu li .scroll-to:hover,
 body.color-red h3 span,
 body.color-red h2 span,
 body.color-red h1 span {
   color: #e4af12;
 }
-
+body.color-orange .left-side .social-profile li a:hover,
+body.color-orange .resume-area .resume-content .resume-timeline .item:hover .date,
+body.color-orange .menu li.active,
+body.color-orange .menu li :hover,
+body.color-orange .menu li .scroll-to.active,
+body.color-orange .menu li .scroll-to:hover,
 body.color-orange h3 span,
 body.color-orange h2 span,
 body.color-orange h1 span {
   color: #fe6f1d; 
 }
-
+body.color-blue .left-side .social-profile li a:hover,
+body.color-blue .resume-area .resume-content .resume-timeline .item:hover .date,
+body.color-blue .menu li.active,
+body.color-blue .menu li :hover,
+body.color-blue .menu li .scroll-to.active,
+body.color-blue .menu li .scroll-to:hover,
 body.color-blue h3 span,
 body.color-blue h2 span,
 body.color-blue h1 span {
   color: #14c5fd;
 }
 
+// .resume-area .resume-content .resume-timeline .item:hover::before {
+//     background: var(--primary-color);
+// }
+// .resume-area .resume-content .resume-timeline .item:hover .date {
+//     color: var(--primary-color);
+// }
+// skills section styles
+body.color-blue .left-side .social-profile li a:hover,
+body.color-blue .skills .skill:hover .skill-inner {
+    border-color: #14c5fd !important;
+}
+body.color-orange .left-side .social-profile li a:hover,
+body.color-orange .skills .skill:hover .skill-inner {
+    border-color: #fe6f1d !important;
+}
+
+body.color-red .left-side .social-profile li a:hover,
+body.color-red .skills .skill:hover .skill-inner {
+    border-color: #e4af12 !important;
+}
+body.color-green .left-side .social-profile li a:hover, 
+body.color-green .skills .skill:hover .skill-inner {
+    border-color:var(--primary-color) !important;
+}
+// background color styles
+
+body.color-blue .resume-area .resume-content .resume-timeline .item:hover:before {
+    background-color: #14c5fd !important;
+}
+
+body.color-orange .resume-area .resume-content .resume-timeline .item:hover:before {
+    background-color: #fe6f1d !important;
+}
+
+body.color-red .resume-area .resume-content .resume-timeline .item:hover:before {
+    background-color: #e4af12 !important;
+}
+
+body.color-green .resume-area .resume-content .resume-timeline .item:hover:before {
+    background-color:var(--primary-color) !important;
+}
+// 
 
 
 h1 {
@@ -271,10 +331,7 @@ h3 {
   transition: .3s;
 }
 
-.left-side .social-profile li a:hover {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
+
 
 .left-side .theme-btn {
   width: 100%;
